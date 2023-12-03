@@ -2,7 +2,7 @@
 Create your own Spotify Rewind!
 
 ## Use your own Spotify data to pimp your Spotify Wrapped
-The original can be found here: 
+The original can be found here: https://public.tableau.com/app/profile/benmangel/viz/SpotifyRewind2023/001Start?publish=yes
 
 Data can be found here: https://www.spotify.com/us/account/privacy/
 
