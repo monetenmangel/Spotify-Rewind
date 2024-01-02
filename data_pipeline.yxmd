@@ -27,9 +27,6 @@
           <DefaultAnnotationText>path_to_your_streaming_history.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
@@ -573,9 +570,6 @@ els...</DefaultAnnotationText>
           <DefaultAnnotationText>final_data.hyper</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -605,12 +599,12 @@ els...</DefaultAnnotationText>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="if isnull([track_name]) then 1 else 0 endif" field="Podcast?" size="1" type="Bool" />
+            <FormulaField expression="if isnull([track_name]) then 1 else 0 endif" field="podcast?" size="1" type="Bool" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText><![CDATA[Podcast? = if isnull([track_name]) then 1 else 0 endif
+          <DefaultAnnotationText><![CDATA[podcast? = if isnull([track_name]) then 1 else 0 endif
 ]]></DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -856,7 +850,7 @@ els...</DefaultAnnotationText>
     </Node>
     <Node ToolID="77">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1721" y="772" width="2818" height="493" />
+        <Position x="1721" y="772" width="2818" height="494" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1600,9 +1594,6 @@ OR...</DefaultAnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro=".\\get_spotify_token.yxmc" />
         </Node>
