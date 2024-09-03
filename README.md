@@ -1,6 +1,8 @@
 # SPOTIFY REWIND
 Create your own Spotify Rewind!
 
+Full blog on how to use this repo: https://cj-mayes.com/2024/02/19/spotify-wrapped-data-with-ben-mangel/
+
 ## Use your own Spotify data to pimp your Spotify Wrapped
 The original can be found here: https://public.tableau.com/app/profile/benmangel/viz/SpotifyRewind2023/001Start?publish=yes
 
